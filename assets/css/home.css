@@ -1,0 +1,68 @@
+.left {
+  flex: 30%;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 10px;
+}
+
+.right {
+  flex: 70%;
+  margin-left: 50px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.social-media i {
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 75px;
+}
+
+@media only screen and (max-width: 700px) {
+  .left {
+    flex: 0%;
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .right {
+    flex: 0%;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  .skill {
+    margin-top: 0px;
+    flex-direction: column;
+  }
+}
+body {
+  background-color: #fab2b2; /* Ganti dengan warna yang Anda inginkan */
+}
+
+.container {
+  background-color: #d18989; /* Untuk container utama */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left,
+.right {
+  background-color: #ffffff; /* Ganti dengan warna yang diinginkan */
+  padding: 15px;
+  border-radius: 10px;
+}
